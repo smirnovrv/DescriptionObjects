@@ -46,6 +46,12 @@
 			<ContextMenu name="РазделКонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="РазделРасширеннаяПодсказка" id="9"/>
 		</InputField>
+		<InputField name="Роль" id="49">
+			<DataPath>Объект.Роль</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="РольКонтекстноеМеню" id="50"/>
+			<ExtendedTooltip name="РольРасширеннаяПодсказка" id="51"/>
+		</InputField>
 		<Table name="Описание" id="16">
 			<Representation>List</Representation>
 			<AutoInsertNewRow>true</AutoInsertNewRow>
@@ -87,6 +93,20 @@
 					<ContextMenu name="ОписаниеНомерСтрокиКонтекстноеМеню" id="30"/>
 					<ExtendedTooltip name="ОписаниеНомерСтрокиРасширеннаяПодсказка" id="31"/>
 				</LabelField>
+				<InputField name="ОписаниеРоль" id="46">
+					<DataPath>Объект.Описание.Роль</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ОписаниеРольКонтекстноеМеню" id="47"/>
+					<ExtendedTooltip name="ОписаниеРольРасширеннаяПодсказка" id="48"/>
+				</InputField>
+				<InputField name="ОписаниеДействие" id="43">
+					<DataPath>Объект.Описание.Действие</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ОписаниеДействиеКонтекстноеМеню" id="44"/>
+					<ExtendedTooltip name="ОписаниеДействиеРасширеннаяПодсказка" id="45"/>
+				</InputField>
 				<InputField name="ОписаниеШаг" id="32">
 					<DataPath>Объект.Описание.Шаг</DataPath>
 					<EditMode>EnterOnInput</EditMode>
