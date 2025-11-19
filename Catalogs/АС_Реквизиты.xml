@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
-	<Catalog uuid="73de79f7-ea84-404f-bdbd-7a21d016ec58">
+	<Catalog uuid="a8ad6db0-e545-4926-ba0c-0f9caf4e08f8">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.АС_ШаблоныДействий" category="Object">
-				<xr:TypeId>85d30f20-5971-41cf-82dc-d97693520927</xr:TypeId>
-				<xr:ValueId>b5c14302-c1ce-4532-8618-396174b26e7c</xr:ValueId>
+			<xr:GeneratedType name="CatalogObject.АС_Реквизиты" category="Object">
+				<xr:TypeId>355cecda-5625-4385-87e4-d3a75f7b80a9</xr:TypeId>
+				<xr:ValueId>6dd63e74-7aac-48df-8531-9a3c8de362cd</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.АС_ШаблоныДействий" category="Ref">
-				<xr:TypeId>9cd3d5cb-426f-4525-8254-00cce3206da7</xr:TypeId>
-				<xr:ValueId>fb84ab8e-81cb-4fed-9988-08c84e8e7478</xr:ValueId>
+			<xr:GeneratedType name="CatalogRef.АС_Реквизиты" category="Ref">
+				<xr:TypeId>5851de07-3754-4e57-b904-d88c548c2717</xr:TypeId>
+				<xr:ValueId>c3f604fd-5964-46f4-a395-86fd2d3b0e8e</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.АС_ШаблоныДействий" category="Selection">
-				<xr:TypeId>af2dcc6d-e475-4b5f-849f-4582f5797d22</xr:TypeId>
-				<xr:ValueId>0d152fb3-53c2-465b-879e-9ebbcdfcfd35</xr:ValueId>
+			<xr:GeneratedType name="CatalogSelection.АС_Реквизиты" category="Selection">
+				<xr:TypeId>7d2a585b-b5f9-4cc0-83bf-cfcc63facca4</xr:TypeId>
+				<xr:ValueId>adf1dc85-70e3-4ec6-8a39-dc897fdfb2d9</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.АС_ШаблоныДействий" category="List">
-				<xr:TypeId>3cc3b5e1-7da9-4191-bd43-c39e92aebf85</xr:TypeId>
-				<xr:ValueId>d8b816a3-e350-4645-b070-fe285108973c</xr:ValueId>
+			<xr:GeneratedType name="CatalogList.АС_Реквизиты" category="List">
+				<xr:TypeId>8c5f2006-8ddd-452a-ba5d-3b97897fa218</xr:TypeId>
+				<xr:ValueId>75a98618-f825-4104-87e5-3295c856e11d</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.АС_ШаблоныДействий" category="Manager">
-				<xr:TypeId>defce078-a622-4560-b492-6ac667679082</xr:TypeId>
-				<xr:ValueId>187e0f54-7303-4e54-8b52-45092c3a5177</xr:ValueId>
+			<xr:GeneratedType name="CatalogManager.АС_Реквизиты" category="Manager">
+				<xr:TypeId>324f763d-fc13-4738-918d-d70b50081785</xr:TypeId>
+				<xr:ValueId>3ed51fb4-ef92-4079-86bc-bb3909dcad55</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>АС_ШаблоныДействий</Name>
+			<Name>АС_Реквизиты</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Шаблоны действий</v8:content>
+					<v8:content>Реквизиты</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -41,7 +41,7 @@
 			<Owners/>
 			<SubordinationUse>ToItems</SubordinationUse>
 			<CodeLength>9</CodeLength>
-			<DescriptionLength>50</DescriptionLength>
+			<DescriptionLength>150</DescriptionLength>
 			<CodeType>String</CodeType>
 			<CodeAllowedLength>Variable</CodeAllowedLength>
 			<CodeSeries>WholeCatalog</CodeSeries>
@@ -54,8 +54,8 @@
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.АС_ШаблоныДействий.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.АС_ШаблоныДействий.StandardAttribute.Code</xr:Field>
+				<xr:Field>Catalog.АС_Реквизиты.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.АС_Реквизиты.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>

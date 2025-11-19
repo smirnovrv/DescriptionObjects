@@ -3,18 +3,31 @@
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="BeforeWrite">ПередЗаписью</Event>
+	</Events>
 	<ChildItems>
 		<UsualGroup name="Группа1" id="41">
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="42"/>
 			<ChildItems>
+				<InputField name="Номер" id="52">
+					<DataPath>Объект.Номер</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НомерКонтекстноеМеню" id="53"/>
+					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="54"/>
+				</InputField>
 				<InputField name="НомерМажор" id="10">
 					<DataPath>Объект.НомерМажор</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="НомерМажорКонтекстноеМеню" id="11"/>
 					<ExtendedTooltip name="НомерМажорРасширеннаяПодсказка" id="12"/>
+					<Events>
+						<Event name="OnChange">НомерМажорПриИзменении</Event>
+					</Events>
 				</InputField>
 				<InputField name="НомерМинор" id="13">
 					<DataPath>Объект.НомерМинор</DataPath>
@@ -22,6 +35,9 @@
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="НомерМинорКонтекстноеМеню" id="14"/>
 					<ExtendedTooltip name="НомерМинорРасширеннаяПодсказка" id="15"/>
+					<Events>
+						<Event name="OnChange">НомерМинорПриИзменении</Event>
+					</Events>
 				</InputField>
 			</ChildItems>
 		</UsualGroup>
