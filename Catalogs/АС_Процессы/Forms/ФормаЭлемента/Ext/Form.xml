@@ -123,6 +123,27 @@
 					<ContextMenu name="ОписаниеДействиеКонтекстноеМеню" id="44"/>
 					<ExtendedTooltip name="ОписаниеДействиеРасширеннаяПодсказка" id="45"/>
 				</InputField>
+				<CheckBoxField name="ОписаниеОбязательныйРеквизит" id="58">
+					<DataPath>Объект.Описание.ОбязательныйРеквизит</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ОписаниеОбязательныйРеквизитКонтекстноеМеню" id="59"/>
+					<ExtendedTooltip name="ОписаниеОбязательныйРеквизитРасширеннаяПодсказка" id="60"/>
+				</CheckBoxField>
+				<CheckBoxField name="ОписаниеЗаполняетсяАвтоматически" id="61">
+					<DataPath>Объект.Описание.ЗаполняетсяАвтоматически</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ОписаниеЗаполняетсяАвтоматическиКонтекстноеМеню" id="62"/>
+					<ExtendedTooltip name="ОписаниеЗаполняетсяАвтоматическиРасширеннаяПодсказка" id="63"/>
+				</CheckBoxField>
+				<InputField name="ОписаниеАС_Реквизит" id="55">
+					<DataPath>Объект.Описание.АС_Реквизит</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ОписаниеАС_РеквизитКонтекстноеМеню" id="56"/>
+					<ExtendedTooltip name="ОписаниеАС_РеквизитРасширеннаяПодсказка" id="57"/>
+				</InputField>
 				<InputField name="ОписаниеШаг" id="32">
 					<DataPath>Объект.Описание.Шаг</DataPath>
 					<EditMode>EnterOnInput</EditMode>
