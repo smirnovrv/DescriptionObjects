@@ -85,7 +85,15 @@
 							<DataPath>Объект.АС_Реквизиты</DataPath>
 							<RowFilter xsi:nil="true"/>
 							<ContextMenu name="АС_РеквизитыКонтекстноеМеню" id="27"/>
-							<AutoCommandBar name="АС_РеквизитыКоманднаяПанель" id="28"/>
+							<AutoCommandBar name="АС_РеквизитыКоманднаяПанель" id="28">
+								<ChildItems>
+									<Button name="АС_РеквизитыЗаполнитьРеквизиты" id="132">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ЗаполнитьРеквизиты</CommandName>
+										<ExtendedTooltip name="АС_РеквизитыЗаполнитьРеквизитыРасширеннаяПодсказка" id="133"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
 							<ExtendedTooltip name="АС_РеквизитыРасширеннаяПодсказка" id="29"/>
 							<SearchStringAddition name="АС_РеквизитыСтрокаПоиска" id="30">
 								<AdditionSource>
@@ -385,4 +393,21 @@
 			<SavedData>true</SavedData>
 		</Attribute>
 	</Attributes>
+	<Commands>
+		<Command name="ЗаполнитьРеквизиты" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить реквизиты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьРеквизиты</Action>
+		</Command>
+	</Commands>
 </Form>
