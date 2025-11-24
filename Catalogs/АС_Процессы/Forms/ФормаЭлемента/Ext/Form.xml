@@ -116,6 +116,13 @@
 					<ContextMenu name="ОписаниеРольКонтекстноеМеню" id="47"/>
 					<ExtendedTooltip name="ОписаниеРольРасширеннаяПодсказка" id="48"/>
 				</InputField>
+				<InputField name="ОписаниеШаг" id="32">
+					<DataPath>Объект.Описание.Шаг</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ОписаниеШагКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="ОписаниеШагРасширеннаяПодсказка" id="34"/>
+				</InputField>
 				<InputField name="ОписаниеДействие" id="43">
 					<DataPath>Объект.Описание.Действие</DataPath>
 					<EditMode>EnterOnInput</EditMode>
@@ -143,13 +150,16 @@
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="ОписаниеАС_РеквизитКонтекстноеМеню" id="56"/>
 					<ExtendedTooltip name="ОписаниеАС_РеквизитРасширеннаяПодсказка" id="57"/>
+					<Events>
+						<Event name="StartChoice">ОписаниеАС_РеквизитНачалоВыбора</Event>
+					</Events>
 				</InputField>
-				<InputField name="ОписаниеШаг" id="32">
-					<DataPath>Объект.Описание.Шаг</DataPath>
+				<InputField name="ОписаниеАлгоритм" id="64">
+					<DataPath>Объект.Описание.Алгоритм</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ОписаниеШагКонтекстноеМеню" id="33"/>
-					<ExtendedTooltip name="ОписаниеШагРасширеннаяПодсказка" id="34"/>
+					<ContextMenu name="ОписаниеАлгоритмКонтекстноеМеню" id="65"/>
+					<ExtendedTooltip name="ОписаниеАлгоритмРасширеннаяПодсказка" id="66"/>
 				</InputField>
 				<InputField name="ОписаниеАС_Объект" id="35">
 					<DataPath>Объект.Описание.АС_Объект</DataPath>

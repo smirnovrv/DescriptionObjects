@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.18">
 	<ConfigVersions>
-		<Metadata name="Catalog.АС_Объекты" id="bdd32ac8-6fb5-4613-ab3d-439fe47a76ed" configVersion="7f5efbb811ab6117f80bc2cd8471eb883e7bb77b">
+		<Metadata name="Catalog.АС_Объекты" id="bdd32ac8-6fb5-4613-ab3d-439fe47a76ed" configVersion="cb483f899224776de25a78cacfa640011886d85c">
 			<Metadata name="Catalog.АС_Объекты.TabularSection.АС_Реквизиты" id="1395a3c2-37db-4724-aaf9-31074660e815"/>
 			<Metadata name="Catalog.АС_Объекты.Attribute.СинонимКонфигурация" id="21a8d457-0a8a-4610-83f1-21903f2fbf38"/>
 			<Metadata name="Catalog.АС_Объекты.TabularSection.РегистрыДвижения" id="2d289ed5-66cc-45df-93ec-f9a3ccd6d727"/>
@@ -11,17 +11,22 @@
 			<Metadata name="Catalog.АС_Объекты.TabularSection.АС_Реквизиты.Attribute.ВидРеквизита" id="635afbe7-36ca-40b2-82f3-e0f16cf77416"/>
 			<Metadata name="Catalog.АС_Объекты.TabularSection.Формы" id="65d0bc0e-6859-42b9-8c5d-b333353c9a72"/>
 			<Metadata name="Catalog.АС_Объекты.TabularSection.АС_Реквизиты.Attribute.СвязьОбъект" id="699b5b84-2a50-4725-bb47-10320b2b4d87"/>
-			<Metadata name="Catalog.АС_Объекты.Attribute.Регистр" id="7ec07a91-6e1f-40a6-864b-3665c080f558"/>
 			<Metadata name="Catalog.АС_Объекты.Attribute.ОбъектПоставщика" id="85ebb0cd-ac0c-461e-a7e2-a89049d4d176"/>
+			<Metadata name="Catalog.АС_Объекты.Attribute.Тип" id="90945815-7565-4d0d-b38c-280dd5f1904c"/>
 			<Metadata name="Catalog.АС_Объекты.TabularSection.Отчеты" id="9c3f734e-4043-4945-83b9-956363d44115"/>
 			<Metadata name="Catalog.АС_Объекты.TabularSection.Модули" id="a7ae9384-4cc3-4f9c-9069-cde4e4d227e3"/>
 			<Metadata name="Catalog.АС_Объекты.Attribute.НазваниеКонфигурация" id="ab6bba6e-86dc-428d-b975-65fd37f68985"/>
 			<Metadata name="Catalog.АС_Объекты.TabularSection.АС_Реквизиты.Attribute.АС_Реквизит" id="b1e0dc31-ba2f-4a8e-8213-160246c064a0"/>
 		</Metadata>
-		<Metadata name="Catalog.АС_Процессы" id="9ccc872f-3edf-4df0-a2fc-53ecbe4ef96c" configVersion="4d6ea15b208b769c37edaa04a595c4835bbb7604">
+		<Metadata name="Catalog.АС_Объекты.Form.ФормаВыбора" id="3f9bd2cf-b689-4f09-b07b-a77fb3754694" configVersion="5e5998f4ca6e008287b48b1298773d06f961779c"/>
+		<Metadata name="Catalog.АС_Объекты.Form.ФормаВыбора.Form" id="3f9bd2cf-b689-4f09-b07b-a77fb3754694.0" configVersion="668f413328e91ab0c4ee13c3b779ec74ce0169cc"/>
+		<Metadata name="Catalog.АС_Объекты.Form.ФормаЭлемента" id="2f0691eb-8d8f-4141-83a8-d311657abc47" configVersion="6ec99bb761597ecb5b6fd155595ffa2cabc16428"/>
+		<Metadata name="Catalog.АС_Объекты.Form.ФормаЭлемента.Form" id="2f0691eb-8d8f-4141-83a8-d311657abc47.0" configVersion="a80809d8194b620c3fdbfc810091c835fda31128"/>
+		<Metadata name="Catalog.АС_Процессы" id="9ccc872f-3edf-4df0-a2fc-53ecbe4ef96c" configVersion="6fb4bc1ca8ea2fa2bda9b3b4d69bf993b4dda09e">
 			<Metadata name="Catalog.АС_Процессы.Attribute.НомерМинор" id="0f1eddd7-f3db-4c74-9462-7e9a8238d043"/>
 			<Metadata name="Catalog.АС_Процессы.TabularSection.Описание.Attribute.ОбязательныйРеквизит" id="26b9d2e4-d0e3-4607-9f33-a94ab46cfdfd"/>
 			<Metadata name="Catalog.АС_Процессы.Attribute.Роль" id="3a3403ba-33ce-4b1f-9301-5b6920949180"/>
+			<Metadata name="Catalog.АС_Процессы.TabularSection.Описание.Attribute.Алгоритм" id="483c4826-a910-43e1-aa39-12b589589e9f"/>
 			<Metadata name="Catalog.АС_Процессы.TabularSection.Описание.Attribute.Результат" id="569a89f1-4493-423a-9c34-42a8d0b8013b"/>
 			<Metadata name="Catalog.АС_Процессы.TabularSection.Описание.Attribute.ЗаполняетсяАвтоматически" id="6b41045e-9206-4de3-a364-f36815889096"/>
 			<Metadata name="Catalog.АС_Процессы.Attribute.Номер" id="8c984a81-4172-4690-beaa-f6fc1b00d785"/>
@@ -35,17 +40,26 @@
 			<Metadata name="Catalog.АС_Процессы.TabularSection.Описание" id="f882ec0c-9b9f-42e5-a2d1-9ba26453faf2"/>
 		</Metadata>
 		<Metadata name="Catalog.АС_Процессы.Form.ФормаЭлемента" id="cbf24d42-09a8-4029-98fe-f510f426f6fd" configVersion="2220c883ef11e150ffd71500ec3a6a1cdae64fc2"/>
-		<Metadata name="Catalog.АС_Процессы.Form.ФормаЭлемента.Form" id="cbf24d42-09a8-4029-98fe-f510f426f6fd.0" configVersion="08f17936d4b99c5b0d9c1acd34a077c7d9e24572"/>
+		<Metadata name="Catalog.АС_Процессы.Form.ФормаЭлемента.Form" id="cbf24d42-09a8-4029-98fe-f510f426f6fd.0" configVersion="294574867675db5bb4a72731ebe023a0723c206a"/>
 		<Metadata name="Catalog.АС_Разделы" id="e0be0ade-cf21-4ba8-9573-afac73c37c53" configVersion="044cde633c3ed48dc7b2ff8b590ee4819c8f67dd"/>
-		<Metadata name="Catalog.АС_Реквизиты" id="a8ad6db0-e545-4926-ba0c-0f9caf4e08f8" configVersion="34ab42bb85000acf7fe8a2576d0b7a563d48f3b7"/>
+		<Metadata name="Catalog.АС_Реквизиты" id="a8ad6db0-e545-4926-ba0c-0f9caf4e08f8" configVersion="c6f1b0956306cabcb1ec1e71c24afa445a98f79a"/>
+		<Metadata name="Catalog.АС_Реквизиты.Form.ФормаВыбора" id="2332fbce-f998-44f3-b5c8-692090152c92" configVersion="8ae32331d1fbb4f5318dbdaa14bd6e4b1baa5c26"/>
+		<Metadata name="Catalog.АС_Реквизиты.Form.ФормаВыбора.Form" id="2332fbce-f998-44f3-b5c8-692090152c92.0" configVersion="1d7f3e76274fe520467b119bf45c5377eed19ed9"/>
 		<Metadata name="Catalog.АС_Роли" id="fcbb49b1-459b-4d83-9567-5fe40644cfbf" configVersion="67705192f0eaf732e5553cf410753561a2b7f9c6"/>
 		<Metadata name="Catalog.АС_ТабличныеЧасти" id="643c4197-52eb-47c9-93df-786c69e35ae2" configVersion="a3b800ca8a44f8d600183bf8130b4eb800c95872"/>
 		<Metadata name="Catalog.АС_ШаблоныДействий" id="73de79f7-ea84-404f-bdbd-7a21d016ec58" configVersion="2d16272ed79a31d10a59aa8d09649cc209f2f7d8"/>
-		<Metadata name="Configuration.АС_ОписаниеОбъектов" id="6c806cee-89de-4d74-9490-531de8a515d8" configVersion="9bfb96459e9fc8c1e3ae9b6aff6c4c3ff72c574d"/>
-		<Metadata name="Enum.АС_ВидыРеквизитовРегистра" id="f68552ae-25f4-441c-9009-7284f7866307" configVersion="1d8b0b80967b3bd8df6dafe04d41afab291821bb">
-			<Metadata name="Enum.АС_ВидыРеквизитовРегистра.EnumValue.Реквизит" id="7a91eed5-18a8-4626-b095-b4d24a70d7fb"/>
+		<Metadata name="Configuration.АС_ОписаниеОбъектов" id="6c806cee-89de-4d74-9490-531de8a515d8" configVersion="662a5262df9d5ff2af4df571422eeb7769ce2dc8"/>
+		<Metadata name="Enum.АС_ВидыРеквизитовРегистра" id="f68552ae-25f4-441c-9009-7284f7866307" configVersion="e6898311572f8a92dd97312d4157c175c067e167">
+			<Metadata name="Enum.АС_ВидыРеквизитовРегистра.EnumValue.РеквизитОбъекта" id="6c3b9d27-47b2-4f43-b56c-b1e0a352a0a5"/>
+			<Metadata name="Enum.АС_ВидыРеквизитовРегистра.EnumValue.РеквизитФормы" id="7a91eed5-18a8-4626-b095-b4d24a70d7fb"/>
 			<Metadata name="Enum.АС_ВидыРеквизитовРегистра.EnumValue.Измерение" id="a754a45b-4376-4b77-9497-f3c43faca2c5"/>
 			<Metadata name="Enum.АС_ВидыРеквизитовРегистра.EnumValue.Ресурс" id="a86bd145-372d-4057-a5ce-5bc322edf43f"/>
+		</Metadata>
+		<Metadata name="Enum.АС_ТипыОбъектов" id="33fdb7c2-33c6-4415-b033-4d24813810da" configVersion="f0a02f45ee4fc9e6d988c00259cc5d1adfe7214a">
+			<Metadata name="Enum.АС_ТипыОбъектов.EnumValue.Документ" id="45f94d77-1c17-4f7b-8e2e-b974cbf3d342"/>
+			<Metadata name="Enum.АС_ТипыОбъектов.EnumValue.РегистрСведений" id="e2105a3a-16f9-45b0-93b8-b258bfd2085f"/>
+			<Metadata name="Enum.АС_ТипыОбъектов.EnumValue.РегистрРасчетов" id="f92e5c43-e4a2-41f7-b27e-c1c7fcf92e52"/>
+			<Metadata name="Enum.АС_ТипыОбъектов.EnumValue.Справочник" id="fde86d23-d387-4d5f-a5f7-e6a548bbe495"/>
 		</Metadata>
 		<Metadata name="Language.Русский" id="46b80675-334b-4bcf-b244-adaa46babd03" configVersion="c565ed9514f4af5d02d8d2080dd2571862fc8a8e"/>
 		<Metadata name="Role.АС_ОсновнаяРоль" id="7629e391-a414-4a6e-927b-0bd29a8318bf" configVersion="8473c84a79f83dfda714867b6ecf917cf7f5c0ce"/>

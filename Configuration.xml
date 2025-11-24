@@ -54,7 +54,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.АС_ОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor/>
-			<Version>1.04.2</Version>
+			<Version>1.05.3</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -74,6 +74,7 @@
 			<Catalog>АС_ТабличныеЧасти</Catalog>
 			<Catalog>АС_ШаблоныДействий</Catalog>
 			<Enum>АС_ВидыРеквизитовРегистра</Enum>
+			<Enum>АС_ТипыОбъектов</Enum>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
