@@ -43,8 +43,8 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
-			<Vendor/>
-			<Version/>
+			<Vendor>ИП СмирновРВ 661300789600</Vendor>
+			<Version>1.03</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -247,6 +247,11 @@
 			<Language>Русский</Language>
 			<CommonModule>ОбщийМодульСервер</CommonModule>
 			<Catalog>рс_ИнформационныеБазы</Catalog>
+			<Catalog>рс_Объекты</Catalog>
+			<Catalog>рс_Подсистемы</Catalog>
+			<Catalog>рс_ТабличныеЧасти</Catalog>
+			<Enum>рс_ВидОбъектов</Enum>
+			<Enum>рс_Изменения</Enum>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
