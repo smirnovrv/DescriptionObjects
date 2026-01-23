@@ -44,7 +44,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ИП СмирновРВ 661300789600</Vendor>
-			<Version>1.05</Version>
+			<Version>1.06</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -252,6 +252,7 @@
 			<Catalog>рс_ТабличныеЧасти</Catalog>
 			<Enum>рс_ВидОбъектов</Enum>
 			<Enum>рс_Изменения</Enum>
+			<DataProcessor>БазаЗнаний</DataProcessor>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

@@ -914,17 +914,17 @@
 			</TabularSection>
 			<TabularSection uuid="26a53eb6-faa9-4c99-a244-dd19675151a3">
 				<InternalInfo>
-					<xr:GeneratedType name="CatalogTabularSection.рс_Объекты.Формы" category="TabularSection">
+					<xr:GeneratedType name="CatalogTabularSection.рс_Объекты.рс_Формы" category="TabularSection">
 						<xr:TypeId>f9bb4318-f0ed-4b48-9b07-5472bd9779b8</xr:TypeId>
 						<xr:ValueId>1cceb573-83d9-420c-a29c-0f399ff0ef3d</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="CatalogTabularSectionRow.рс_Объекты.Формы" category="TabularSectionRow">
+					<xr:GeneratedType name="CatalogTabularSectionRow.рс_Объекты.рс_Формы" category="TabularSectionRow">
 						<xr:TypeId>06781bb1-66f5-42df-a41e-5241ff477261</xr:TypeId>
 						<xr:ValueId>5979d49f-886f-40b5-97e5-e1a853c85c2b</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
-					<Name>Формы</Name>
+					<Name>рс_Формы</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -969,7 +969,7 @@
 				<ChildObjects>
 					<Attribute uuid="7af058fa-95e6-4377-95ed-48334f77f538">
 						<Properties>
-							<Name>АС_Форма</Name>
+							<Name>рс_Форма</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -981,47 +981,6 @@
 								<v8:Type>xs:string</v8:Type>
 								<v8:StringQualifiers>
 									<v8:Length>10</v8:Length>
-									<v8:AllowedLength>Variable</v8:AllowedLength>
-								</v8:StringQualifiers>
-							</Type>
-							<PasswordMode>false</PasswordMode>
-							<Format/>
-							<EditFormat/>
-							<ToolTip/>
-							<MarkNegatives>false</MarkNegatives>
-							<Mask/>
-							<MultiLine>false</MultiLine>
-							<ExtendedEdit>false</ExtendedEdit>
-							<MinValue xsi:nil="true"/>
-							<MaxValue xsi:nil="true"/>
-							<FillChecking>DontCheck</FillChecking>
-							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-							<ChoiceParameterLinks/>
-							<ChoiceParameters/>
-							<QuickChoice>Auto</QuickChoice>
-							<CreateOnInput>Auto</CreateOnInput>
-							<ChoiceForm/>
-							<LinkByType/>
-							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-							<Indexing>DontIndex</Indexing>
-							<FullTextSearch>Use</FullTextSearch>
-							<DataHistory>Use</DataHistory>
-						</Properties>
-					</Attribute>
-					<Attribute uuid="aa155a53-0d46-4266-b208-e7982a7e1ffa">
-						<Properties>
-							<Name>РеквизитИмя</Name>
-							<Synonym>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Реквизит</v8:content>
-								</v8:item>
-							</Synonym>
-							<Comment/>
-							<Type>
-								<v8:Type>xs:string</v8:Type>
-								<v8:StringQualifiers>
-									<v8:Length>256</v8:Length>
 									<v8:AllowedLength>Variable</v8:AllowedLength>
 								</v8:StringQualifiers>
 							</Type>
