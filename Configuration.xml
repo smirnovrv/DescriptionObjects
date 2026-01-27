@@ -44,7 +44,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>ИП СмирновРВ 661300789600</Vendor>
-			<Version>1.06</Version>
+			<Version>1.08</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -245,11 +245,24 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>НСИ</Subsystem>
+			<CommonPicture>Справочники</CommonPicture>
 			<CommonModule>ОбщийМодульСервер</CommonModule>
+			<CommonCommand>рс_Команды</CommonCommand>
+			<CommonCommand>рс_Формы</CommonCommand>
+			<CommonCommand>рс_ИнформационныеБазы</CommonCommand>
+			<CommonCommand>рс_Макеты</CommonCommand>
+			<CommonCommand>рс_Объекты</CommonCommand>
+			<CommonCommand>рс_Подсистемы</CommonCommand>
+			<CommonCommand>рс_ТабличныеЧасти</CommonCommand>
+			<CommandGroup>Прочие</CommandGroup>
 			<Catalog>рс_ИнформационныеБазы</Catalog>
+			<Catalog>рс_Команды</Catalog>
+			<Catalog>рс_Макеты</Catalog>
 			<Catalog>рс_Объекты</Catalog>
 			<Catalog>рс_Подсистемы</Catalog>
 			<Catalog>рс_ТабличныеЧасти</Catalog>
+			<Catalog>рс_Формы</Catalog>
 			<Enum>рс_ВидОбъектов</Enum>
 			<Enum>рс_Изменения</Enum>
 			<DataProcessor>БазаЗнаний</DataProcessor>

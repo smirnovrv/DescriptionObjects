@@ -75,6 +75,11 @@
 				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
+		<Button name="ФормаКомандаЗаполнить" id="35">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.КомандаЗаполнить</CommandName>
+			<ExtendedTooltip name="ФормаКомандаЗаполнитьРасширеннаяПодсказка" id="36"/>
+		</Button>
 		<Pages name="Группа2" id="57">
 			<Title>
 				<v8:item>
@@ -99,47 +104,39 @@
 					</ToolTip>
 					<ExtendedTooltip name="ГруппаСтраницаДанныеРасширеннаяПодсказка" id="60"/>
 					<ChildItems>
-						<Table name="АС_Реквизиты" id="10">
+						<Table name="рс_Реквизиты" id="10">
 							<Representation>List</Representation>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
 							<DataPath>Объект.рс_Реквизиты</DataPath>
 							<RowFilter xsi:nil="true"/>
-							<ContextMenu name="АС_РеквизитыКонтекстноеМеню" id="11"/>
-							<AutoCommandBar name="АС_РеквизитыКоманднаяПанель" id="12">
-								<ChildItems>
-									<Button name="ФормаКомандаЗаполнить" id="35">
-										<Type>CommandBarButton</Type>
-										<CommandName>Form.Command.КомандаЗаполнить</CommandName>
-										<ExtendedTooltip name="ФормаКомандаЗаполнитьРасширеннаяПодсказка" id="36"/>
-									</Button>
-								</ChildItems>
-							</AutoCommandBar>
-							<ExtendedTooltip name="АС_РеквизитыРасширеннаяПодсказка" id="13"/>
-							<SearchStringAddition name="АС_РеквизитыСтрокаПоиска" id="14">
+							<ContextMenu name="рс_РеквизитыКонтекстноеМеню" id="11"/>
+							<AutoCommandBar name="рс_РеквизитыКоманднаяПанель" id="12"/>
+							<ExtendedTooltip name="рс_РеквизитыРасширеннаяПодсказка" id="13"/>
+							<SearchStringAddition name="рс_РеквизитыСтрокаПоиска" id="14">
 								<AdditionSource>
-									<Item>АС_Реквизиты</Item>
+									<Item>рс_Реквизиты</Item>
 									<Type>SearchStringRepresentation</Type>
 								</AdditionSource>
-								<ContextMenu name="АС_РеквизитыСтрокаПоискаКонтекстноеМеню" id="15"/>
-								<ExtendedTooltip name="АС_РеквизитыСтрокаПоискаРасширеннаяПодсказка" id="16"/>
+								<ContextMenu name="рс_РеквизитыСтрокаПоискаКонтекстноеМеню" id="15"/>
+								<ExtendedTooltip name="рс_РеквизитыСтрокаПоискаРасширеннаяПодсказка" id="16"/>
 							</SearchStringAddition>
-							<ViewStatusAddition name="АС_РеквизитыСостояниеПросмотра" id="17">
+							<ViewStatusAddition name="рс_РеквизитыСостояниеПросмотра" id="17">
 								<AdditionSource>
-									<Item>АС_Реквизиты</Item>
+									<Item>рс_Реквизиты</Item>
 									<Type>ViewStatusRepresentation</Type>
 								</AdditionSource>
-								<ContextMenu name="АС_РеквизитыСостояниеПросмотраКонтекстноеМеню" id="18"/>
-								<ExtendedTooltip name="АС_РеквизитыСостояниеПросмотраРасширеннаяПодсказка" id="19"/>
+								<ContextMenu name="рс_РеквизитыСостояниеПросмотраКонтекстноеМеню" id="18"/>
+								<ExtendedTooltip name="рс_РеквизитыСостояниеПросмотраРасширеннаяПодсказка" id="19"/>
 							</ViewStatusAddition>
-							<SearchControlAddition name="АС_РеквизитыУправлениеПоиском" id="20">
+							<SearchControlAddition name="рс_РеквизитыУправлениеПоиском" id="20">
 								<AdditionSource>
-									<Item>АС_Реквизиты</Item>
+									<Item>рс_Реквизиты</Item>
 									<Type>SearchControl</Type>
 								</AdditionSource>
-								<ContextMenu name="АС_РеквизитыУправлениеПоискомКонтекстноеМеню" id="21"/>
-								<ExtendedTooltip name="АС_РеквизитыУправлениеПоискомРасширеннаяПодсказка" id="22"/>
+								<ContextMenu name="рс_РеквизитыУправлениеПоискомКонтекстноеМеню" id="21"/>
+								<ExtendedTooltip name="рс_РеквизитыУправлениеПоискомРасширеннаяПодсказка" id="22"/>
 							</SearchControlAddition>
 							<ChildItems>
 								<LabelField name="АС_РеквизитыНомерСтроки" id="23">
@@ -207,6 +204,72 @@
 						</Table>
 					</ChildItems>
 				</Page>
+				<Page name="ГруппаСтраницаФормы" id="151">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Формы</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа страница формы</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаСтраницаФормыРасширеннаяПодсказка" id="152"/>
+					<ChildItems>
+						<Table name="рс_Формы" id="153">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.рс_Формы</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="рс_ФормыКонтекстноеМеню" id="154"/>
+							<AutoCommandBar name="рс_ФормыКоманднаяПанель" id="155"/>
+							<ExtendedTooltip name="рс_ФормыРасширеннаяПодсказка" id="156"/>
+							<SearchStringAddition name="рс_ФормыСтрокаПоиска" id="157">
+								<AdditionSource>
+									<Item>рс_Формы</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="рс_ФормыСтрокаПоискаКонтекстноеМеню" id="158"/>
+								<ExtendedTooltip name="рс_ФормыСтрокаПоискаРасширеннаяПодсказка" id="159"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="рс_ФормыСостояниеПросмотра" id="160">
+								<AdditionSource>
+									<Item>рс_Формы</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="рс_ФормыСостояниеПросмотраКонтекстноеМеню" id="161"/>
+								<ExtendedTooltip name="рс_ФормыСостояниеПросмотраРасширеннаяПодсказка" id="162"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="рс_ФормыУправлениеПоиском" id="163">
+								<AdditionSource>
+									<Item>рс_Формы</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="рс_ФормыУправлениеПоискомКонтекстноеМеню" id="164"/>
+								<ExtendedTooltip name="рс_ФормыУправлениеПоискомРасширеннаяПодсказка" id="165"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="рс_ФормыНомерСтроки" id="166">
+									<DataPath>Объект.рс_Формы.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="рс_ФормыНомерСтрокиКонтекстноеМеню" id="167"/>
+									<ExtendedTooltip name="рс_ФормыНомерСтрокиРасширеннаяПодсказка" id="168"/>
+								</LabelField>
+								<InputField name="рс_Формырс_Форма" id="169">
+									<DataPath>Объект.рс_Формы.рс_Форма</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="рс_Формырс_ФормаКонтекстноеМеню" id="170"/>
+									<ExtendedTooltip name="рс_Формырс_ФормаРасширеннаяПодсказка" id="171"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
 				<Page name="ГруппаСтраницаДвижения" id="112">
 					<Title>
 						<v8:item>
@@ -268,6 +331,72 @@
 									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 									<ContextMenu name="РегистрыАС_ОбъектКонтекстноеМеню" id="131"/>
 									<ExtendedTooltip name="РегистрыАС_ОбъектРасширеннаяПодсказка" id="132"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаСтраницаКоманды" id="172">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Команды</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа страница команды</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаСтраницаКомандыРасширеннаяПодсказка" id="173"/>
+					<ChildItems>
+						<Table name="рс_Команды" id="174">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.рс_Команды</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="рс_КомандыКонтекстноеМеню" id="175"/>
+							<AutoCommandBar name="рс_КомандыКоманднаяПанель" id="176"/>
+							<ExtendedTooltip name="рс_КомандыРасширеннаяПодсказка" id="177"/>
+							<SearchStringAddition name="рс_КомандыСтрокаПоиска" id="178">
+								<AdditionSource>
+									<Item>рс_Команды</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="рс_КомандыСтрокаПоискаКонтекстноеМеню" id="179"/>
+								<ExtendedTooltip name="рс_КомандыСтрокаПоискаРасширеннаяПодсказка" id="180"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="рс_КомандыСостояниеПросмотра" id="181">
+								<AdditionSource>
+									<Item>рс_Команды</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="рс_КомандыСостояниеПросмотраКонтекстноеМеню" id="182"/>
+								<ExtendedTooltip name="рс_КомандыСостояниеПросмотраРасширеннаяПодсказка" id="183"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="рс_КомандыУправлениеПоиском" id="184">
+								<AdditionSource>
+									<Item>рс_Команды</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="рс_КомандыУправлениеПоискомКонтекстноеМеню" id="185"/>
+								<ExtendedTooltip name="рс_КомандыУправлениеПоискомРасширеннаяПодсказка" id="186"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="рс_КомандыНомерСтроки" id="187">
+									<DataPath>Объект.рс_Команды.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="рс_КомандыНомерСтрокиКонтекстноеМеню" id="188"/>
+									<ExtendedTooltip name="рс_КомандыНомерСтрокиРасширеннаяПодсказка" id="189"/>
+								</LabelField>
+								<InputField name="рс_Командырс_Команда" id="190">
+									<DataPath>Объект.рс_Команды.рс_Команда</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="рс_Командырс_КомандаКонтекстноеМеню" id="191"/>
+									<ExtendedTooltip name="рс_Командырс_КомандаРасширеннаяПодсказка" id="192"/>
 								</InputField>
 							</ChildItems>
 						</Table>

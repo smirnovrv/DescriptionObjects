@@ -139,6 +139,13 @@
 					<ContextMenu name="рс_МетаданныеНомерСтрокиКонтекстноеМеню" id="46"/>
 					<ExtendedTooltip name="рс_МетаданныеНомерСтрокиРасширеннаяПодсказка" id="47"/>
 				</LabelField>
+				<InputField name="рс_Метаданныерс_ВидОбъекта" id="66">
+					<DataPath>Объект.рс_Метаданные.рс_ВидОбъекта</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="рс_Метаданныерс_ВидОбъектаКонтекстноеМеню" id="67"/>
+					<ExtendedTooltip name="рс_Метаданныерс_ВидОбъектаРасширеннаяПодсказка" id="68"/>
+				</InputField>
 				<InputField name="рс_Метаданныерс_Имя" id="48">
 					<DataPath>Объект.рс_Метаданные.рс_Имя</DataPath>
 					<EditMode>EnterOnInput</EditMode>
@@ -180,13 +187,6 @@
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="рс_Метаданныерс_КоличествоКонтекстноеМеню" id="64"/>
 					<ExtendedTooltip name="рс_Метаданныерс_КоличествоРасширеннаяПодсказка" id="65"/>
-				</InputField>
-				<InputField name="рс_Метаданныерс_ВидОбъекта" id="66">
-					<DataPath>Объект.рс_Метаданные.рс_ВидОбъекта</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="рс_Метаданныерс_ВидОбъектаКонтекстноеМеню" id="67"/>
-					<ExtendedTooltip name="рс_Метаданныерс_ВидОбъектаРасширеннаяПодсказка" id="68"/>
 				</InputField>
 			</ChildItems>
 		</Table>
